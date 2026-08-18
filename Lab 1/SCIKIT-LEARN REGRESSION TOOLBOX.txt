@@ -1,0 +1,29 @@
+SCIKIT-LEARN REGRESSION TOOLBOX
+
+Data splitting
+    train_test_split()
+
+Feature transformation
+    PolynomialFeatures()
+
+Regression
+    LinearRegression()
+    Ridge()
+    Lasso()
+
+Training
+    model.fit(X, y)
+
+Prediction
+    model.predict(X)
+
+Model parameters
+    model.coef_
+    model.intercept_
+
+Evaluation
+    mean_squared_error()
+    r2_score()
+
+Hyperparameter search
+    GridSearchCV()
